@@ -12,7 +12,7 @@ import (
 )
 
 // Marcador que o ensaio confere no corpo da resposta; muda a cada versão.
-const marker = "uqbitz-example-go-v2"
+const marker = "uqbitz-example-go-v3"
 
 var page = template.Must(template.New("page").Parse(`<!doctype html>
 <html lang="pt-BR">
